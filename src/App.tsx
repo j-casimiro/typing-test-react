@@ -6,20 +6,16 @@ import Keyboard from './components/Keyboard';
 function App() {
   return (
     <div className="flex flex-col min-h-screen">
-      {/* Header section */}
       <header className="p-4">
         <Header />
       </header>
 
-      {/* Words section grows to take available space */}
       <main className="flex flex-col flex-grow p-4">
-        {/* Words Section (60% height of main) */}
-        <div className="flex-grow-[6]">
+        <div className="flex-grow-[7]">
           <Words />
         </div>
 
-        {/* Keyboard Section (40% height of main) */}
-        <div className="flex-grow-[4]">
+        <div className="flex-grow-[3]">
           <Keyboard />
         </div>
       </main>
