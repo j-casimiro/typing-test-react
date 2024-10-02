@@ -9,7 +9,7 @@ function Words() {
   }, []);
 
   return (
-    <div className="absolute flex justify-center mt-20 text-5xl text-center mx-52">
+    <div className="absolute flex justify-center mt-6 text-5xl text-center mx-52">
       <div>{formattedWords}</div>
     </div>
   );

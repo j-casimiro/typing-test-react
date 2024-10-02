@@ -2,6 +2,7 @@ import './App.css';
 import Header from './components/Header';
 import Words from './components/Words';
 import Keyboard from './components/Keyboard';
+import Timer from './components/Timer';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
 
       <main className="flex flex-col flex-grow p-4">
         <div className="flex-grow-[7]">
+          <Timer />
           <Words />
         </div>
 
