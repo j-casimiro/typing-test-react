@@ -1,7 +1,7 @@
 function Keyboard() {
   return (
     <div className="flex justify-center">
-      <div>Keyboard</div>
+      <div>Keyboard layout here</div>
     </div>
   );
 }
